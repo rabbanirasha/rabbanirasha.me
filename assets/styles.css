@@ -1,0 +1,79 @@
+#nameplate{
+    border-radius: 15px;
+    background: linear-gradient(to left, #d3cce3, #e9e4f0);
+}
+.btn-social{
+    border: 2px solid black;
+    color:black;
+}
+
+
+
+.step-title{
+    color:#2c3e50;
+}
+.step {
+    min-height: 1em;
+    color: #2c3e50;
+    font-size: 20px;
+}
+.step + .step {
+  margin-top: 1.5em
+}
+.step > div:first-child {
+    position: static;
+    height: 0;
+}
+.step > div:not(:first-child) {
+    margin-left: 3em;
+    padding-left: 1em;
+}
+.circle {
+
+    position: relative;
+    width: 3em;
+    height: 1.5em;
+    line-height: 1.2em;
+    color: #2c3e50;
+    text-align: center;
+    box-shadow: 0 0 0 3px #fff;
+    border: 2px solid #18bc9c;
+    border-radius: 4px;
+}
+/* Vertical Line */
+.circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 270%;
+    width: 1px;
+    transform: scale(2, 2);
+    transform-origin: 50% -50%;
+    background-color: #18bc9c;
+    z-index: -1;
+  }
+  .step:last-child .circle:after {
+    display: none
+  }
+
+.portfolio-item-caption{
+    border-radius: 15px !important;
+}
+.img-fluid{
+    border-radius: 15px;
+}
+.text-uppercase{
+    color: #18bc9c;
+}
+.folio-card-title{
+    color: #2c3e50;
+}
+.folio-rule{
+    width:50px !important;
+    height:5px !important;
+    color: #18bc9c;
+}

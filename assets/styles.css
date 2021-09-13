@@ -1,3 +1,8 @@
+.navbar{
+    opacity: 0.90;
+    backdrop-filter: blur(10px) !important;
+}
+
 #nameplate{
     border-radius: 15px;
     background: linear-gradient(to left, #d3cce3, #e9e4f0);
@@ -76,4 +81,22 @@
     width:50px !important;
     height:5px !important;
     color: #18bc9c;
+}
+.folio-card-body{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.skill-card{
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    background-color: #026873;
+    background: linear-gradient(to bottom, #c2e59c, #64b3f4);
+}
+.skill-card-2{
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
 }

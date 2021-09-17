@@ -88,9 +88,6 @@
     padding-right: 10px;
 }
 .skill-card{
-    opacity: 0.8;
-    backdrop-filter: blur(10px);
     border-radius: 15px;
     background-color: #026873;
-    background: linear-gradient(to bottom, #c2e59c, #64b3f4);
 }

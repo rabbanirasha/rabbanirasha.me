@@ -94,9 +94,3 @@
     background-color: #026873;
     background: linear-gradient(to bottom, #c2e59c, #64b3f4);
 }
-.skill-card-2{
-    background: linear-gradient(to right, #e0eafc, #cfdef3);
-
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-}

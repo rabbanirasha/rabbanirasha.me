@@ -3,10 +3,6 @@
     backdrop-filter: blur(10px) !important;
 } */
 
-body {
-    cursor: url('img/cursor.png'), auto !important;	
-}
-
 #nameplate{
     border-radius: 15px;
     background: linear-gradient(to left, #d3cce3, #e9e4f0);
@@ -93,7 +89,7 @@ body {
 }
 .skill-card{
     border-radius: 15px;
-    background:  #e9e4f0;
+    background:  #efefef;
     transition: all .2s ease-in-out;
 
 }
@@ -163,4 +159,3 @@ body {
     background-color: #c8fff4 !important;
     color:#2c3e50 !important;
   }
-
